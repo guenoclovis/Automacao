@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.7.1 on win32)" generated="20181119 14:41:19.270">
+<suite id="s1" name="STC" source="C:\Automacao_Robot\STC\STC.robot">
+<test id="s1-t1" name="Entra Panel">
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Panel.PNG</arg>
+<arg>C:/Automacao_Robot/STC/img/PanelB.PNG</arg>
+</arguments>
+<msg timestamp="20181119 14:41:27.217" level="INFO">Params: [C:/Automacao_Robot/STC/img/Panel.PNG, C:/Automacao_Robot/STC/img/PanelB.PNG]</msg>
+<msg timestamp="20181119 14:41:27.217" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1542645686528.png'/&gt;
+C:/Automacao_Robot/STC/img/Panel.PNG is found!</msg>
+<msg timestamp="20181119 14:41:27.218" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1542645686629.png'/&gt;
+[log] CLICK on L(123,748)@S(0)[0,0 1366x768] (541 msec)</msg>
+<status status="PASS" starttime="20181119 14:41:25.777" endtime="20181119 14:41:27.218"></status>
+</kw>
+<status status="PASS" starttime="20181119 14:41:25.777" endtime="20181119 14:41:27.221" critical="yes"></status>
+</test>
+<test id="s1-t2" name="loopmessagelivre">
+<kw name="${i} IN RANGE [ 1 | 3000 ]" type="for">
+<kw name="${i} = 1" type="foritem">
+<kw name="${Train} = C001">
+<msg timestamp="20181119 14:41:27.231" level="FAIL">No keyword with name '${Train} = C001' found.</msg>
+<status status="FAIL" starttime="20181119 14:41:27.231" endtime="20181119 14:41:27.231"></status>
+</kw>
+<status status="FAIL" starttime="20181119 14:41:27.223" endtime="20181119 14:41:27.231"></status>
+</kw>
+<status status="FAIL" starttime="20181119 14:41:27.223" endtime="20181119 14:41:27.231"></status>
+</kw>
+<status status="FAIL" starttime="20181119 14:41:27.222" endtime="20181119 14:41:27.232" critical="yes">No keyword with name '${Train} = C001' found.</status>
+</test>
+<status status="FAIL" starttime="20181119 14:41:19.278" endtime="20181119 14:41:27.233"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1">Critical Tests</stat>
+<stat pass="1" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="1" id="s1" name="STC">STC</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

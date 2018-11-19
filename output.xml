@@ -1,0 +1,1439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.7.0 on win32)" generated="20181019 13:28:31.487">
+<suite id="s1" name="STC" source="C:\Automacao_Robot\STC\STC.robot">
+<test id="s1-t1" name="Entra Panel">
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Panel.PNG</arg>
+<arg>C:/Automacao_Robot/STC/img/PanelB.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:28:35.763" level="INFO">Params: [C:/Automacao_Robot/STC/img/Panel.PNG, C:/Automacao_Robot/STC/img/PanelB.PNG]</msg>
+<msg timestamp="20181019 13:28:35.763" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966515189.png'/&gt;
+C:/Automacao_Robot/STC/img/Panel.PNG is found!</msg>
+<msg timestamp="20181019 13:28:35.763" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966515221.png'/&gt;
+[log] CLICK on L(172,880)@S(0)[0,0 1440x900] (522 msec)</msg>
+<status status="PASS" starttime="20181019 13:28:34.959" endtime="20181019 13:28:35.763"></status>
+</kw>
+<status status="PASS" starttime="20181019 13:28:34.958" endtime="20181019 13:28:35.763" critical="yes"></status>
+</test>
+<test id="s1-t2" name="loopmessagelivre">
+<kw name="${i} IN RANGE [ 1 | 7890 ]" type="for">
+<kw name="${i} = 1" type="foritem">
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${TODAY}</var>
+</assign>
+<msg timestamp="20181019 13:28:35.766" level="INFO">${TODAY} = 2018-10-19 13:28:35.766</msg>
+<status status="PASS" starttime="20181019 13:28:35.766" endtime="20181019 13:28:35.766"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/FremessageA.JPG</arg>
+<arg>C:/Automacao_Robot/STC/img/FremessageB.JPG</arg>
+</arguments>
+<msg timestamp="20181019 13:28:37.034" level="INFO">Params: [C:/Automacao_Robot/STC/img/FremessageA.JPG, C:/Automacao_Robot/STC/img/FremessageB.JPG]</msg>
+<msg timestamp="20181019 13:28:37.034" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966516425.png'/&gt;
+C:/Automacao_Robot/STC/img/FremessageA.JPG is found!</msg>
+<msg timestamp="20181019 13:28:37.034" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966516487.png'/&gt;
+[log] CLICK on L(51,728)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:28:35.766" endtime="20181019 13:28:37.034"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem.PNG</arg>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:28:38.269" level="INFO">Params: [C:/Automacao_Robot/STC/img/ComboboxTrem.PNG, C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG]</msg>
+<msg timestamp="20181019 13:28:38.269" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966517643.png'/&gt;
+C:/Automacao_Robot/STC/img/ComboboxTrem.PNG is found!</msg>
+<msg timestamp="20181019 13:28:38.269" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966517722.png'/&gt;
+[log] CLICK on L(602,482)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:28:37.034" endtime="20181019 13:28:38.269"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Loco.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:28:39.160" level="INFO">Params: [C:/Automacao_Robot/STC/img/Loco.PNG]</msg>
+<msg timestamp="20181019 13:28:39.160" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966518472.png'/&gt;
+[log] CLICK on L(512,500)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:28:38.269" endtime="20181019 13:28:39.160"></status>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<doc>Input text. Image could be empty</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Texto.PNG</arg>
+<arg>TESTE ${I} ${TODAY}</arg>
+</arguments>
+<msg timestamp="20181019 13:28:42.144" level="INFO">Params: [C:/Automacao_Robot/STC/img/Texto.PNG, TESTE 1 2018-10-19 13:28:35.766]
+Input Text:
+TESTE 1 2018-10-19 13:28:35.766</msg>
+<msg timestamp="20181019 13:28:42.144" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966519315.png'/&gt;
+[log] CLICK on L(794,418)@S(0)[0,0 1440x900] (531 msec)
+[log]  TYPE "TESTE 1 2018-10-19 13:28:35.766"</msg>
+<status status="PASS" starttime="20181019 13:28:39.160" endtime="20181019 13:28:42.144"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Send.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:28:43.113" level="INFO">Params: [C:/Automacao_Robot/STC/img/Send.PNG]</msg>
+<msg timestamp="20181019 13:28:43.113" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966522394.png'/&gt;
+[log] CLICK on L(533,528)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:28:42.144" endtime="20181019 13:28:43.113"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20181019 13:28:53.114" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20181019 13:28:43.113" endtime="20181019 13:28:53.114"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == 10000</arg>
+<arg>log</arg>
+<arg>Acabou o loop</arg>
+</arguments>
+<status status="PASS" starttime="20181019 13:28:53.114" endtime="20181019 13:28:53.114"></status>
+</kw>
+<status status="PASS" starttime="20181019 13:28:35.766" endtime="20181019 13:28:53.114"></status>
+</kw>
+<kw name="${i} = 2" type="foritem">
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${TODAY}</var>
+</assign>
+<msg timestamp="20181019 13:28:53.114" level="INFO">${TODAY} = 2018-10-19 13:28:53.114</msg>
+<status status="PASS" starttime="20181019 13:28:53.114" endtime="20181019 13:28:53.114"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/FremessageA.JPG</arg>
+<arg>C:/Automacao_Robot/STC/img/FremessageB.JPG</arg>
+</arguments>
+<msg timestamp="20181019 13:28:53.879" level="INFO">Params: [C:/Automacao_Robot/STC/img/FremessageA.JPG, C:/Automacao_Robot/STC/img/FremessageB.JPG]</msg>
+<msg timestamp="20181019 13:28:53.879" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966533285.png'/&gt;
+C:/Automacao_Robot/STC/img/FremessageA.JPG is found!</msg>
+<msg timestamp="20181019 13:28:53.879" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966533332.png'/&gt;
+[log] CLICK on L(51,728)@S(0)[0,0 1440x900] (532 msec)</msg>
+<status status="PASS" starttime="20181019 13:28:53.114" endtime="20181019 13:28:53.879"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem.PNG</arg>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:28:55.036" level="INFO">Params: [C:/Automacao_Robot/STC/img/ComboboxTrem.PNG, C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG]</msg>
+<msg timestamp="20181019 13:28:55.036" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966534473.png'/&gt;
+C:/Automacao_Robot/STC/img/ComboboxTrem.PNG is found!</msg>
+<msg timestamp="20181019 13:28:55.036" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966534504.png'/&gt;
+[log] CLICK on L(602,482)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:28:53.879" endtime="20181019 13:28:55.036"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Loco.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:28:55.911" level="INFO">Params: [C:/Automacao_Robot/STC/img/Loco.PNG]</msg>
+<msg timestamp="20181019 13:28:55.911" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966535223.png'/&gt;
+[log] CLICK on L(512,500)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:28:55.036" endtime="20181019 13:28:55.911"></status>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<doc>Input text. Image could be empty</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Texto.PNG</arg>
+<arg>TESTE ${I} ${TODAY}</arg>
+</arguments>
+<msg timestamp="20181019 13:28:58.895" level="INFO">Params: [C:/Automacao_Robot/STC/img/Texto.PNG, TESTE 2 2018-10-19 13:28:53.114]
+Input Text:
+TESTE 2 2018-10-19 13:28:53.114</msg>
+<msg timestamp="20181019 13:28:58.895" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966536066.png'/&gt;
+[log] CLICK on L(794,418)@S(0)[0,0 1440x900] (531 msec)
+[log]  TYPE "TESTE 2 2018-10-19 13:28:53.114"</msg>
+<status status="PASS" starttime="20181019 13:28:55.911" endtime="20181019 13:28:58.895"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Send.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:28:59.848" level="INFO">Params: [C:/Automacao_Robot/STC/img/Send.PNG]</msg>
+<msg timestamp="20181019 13:28:59.848" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966539129.png'/&gt;
+[log] CLICK on L(533,528)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:28:58.895" endtime="20181019 13:28:59.848"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20181019 13:29:09.849" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20181019 13:28:59.848" endtime="20181019 13:29:09.849"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == 10000</arg>
+<arg>log</arg>
+<arg>Acabou o loop</arg>
+</arguments>
+<status status="PASS" starttime="20181019 13:29:09.849" endtime="20181019 13:29:09.849"></status>
+</kw>
+<status status="PASS" starttime="20181019 13:28:53.114" endtime="20181019 13:29:09.849"></status>
+</kw>
+<kw name="${i} = 3" type="foritem">
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${TODAY}</var>
+</assign>
+<msg timestamp="20181019 13:29:09.849" level="INFO">${TODAY} = 2018-10-19 13:29:09.849</msg>
+<status status="PASS" starttime="20181019 13:29:09.849" endtime="20181019 13:29:09.849"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/FremessageA.JPG</arg>
+<arg>C:/Automacao_Robot/STC/img/FremessageB.JPG</arg>
+</arguments>
+<msg timestamp="20181019 13:29:10.615" level="INFO">Params: [C:/Automacao_Robot/STC/img/FremessageA.JPG, C:/Automacao_Robot/STC/img/FremessageB.JPG]</msg>
+<msg timestamp="20181019 13:29:10.615" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966550020.png'/&gt;
+C:/Automacao_Robot/STC/img/FremessageA.JPG is found!</msg>
+<msg timestamp="20181019 13:29:10.615" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966550067.png'/&gt;
+[log] CLICK on L(51,728)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:29:09.849" endtime="20181019 13:29:10.615"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem.PNG</arg>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:29:12.255" level="INFO">Params: [C:/Automacao_Robot/STC/img/ComboboxTrem.PNG, C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG]</msg>
+<msg timestamp="20181019 13:29:12.255" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966551677.png'/&gt;
+C:/Automacao_Robot/STC/img/ComboboxTrem.PNG is found!</msg>
+<msg timestamp="20181019 13:29:12.255" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966551724.png'/&gt;
+[log] CLICK on L(602,482)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:29:10.615" endtime="20181019 13:29:12.255"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Loco.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:29:13.130" level="INFO">Params: [C:/Automacao_Robot/STC/img/Loco.PNG]</msg>
+<msg timestamp="20181019 13:29:13.130" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966552442.png'/&gt;
+[log] CLICK on L(512,500)@S(0)[0,0 1440x900] (547 msec)</msg>
+<status status="PASS" starttime="20181019 13:29:12.255" endtime="20181019 13:29:13.130"></status>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<doc>Input text. Image could be empty</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Texto.PNG</arg>
+<arg>TESTE ${I} ${TODAY}</arg>
+</arguments>
+<msg timestamp="20181019 13:29:16.099" level="INFO">Params: [C:/Automacao_Robot/STC/img/Texto.PNG, TESTE 3 2018-10-19 13:29:09.849]
+Input Text:
+TESTE 3 2018-10-19 13:29:09.849</msg>
+<msg timestamp="20181019 13:29:16.099" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966553286.png'/&gt;
+[log] CLICK on L(794,418)@S(0)[0,0 1440x900] (532 msec)
+[log]  TYPE "TESTE 3 2018-10-19 13:29:09.849"</msg>
+<status status="PASS" starttime="20181019 13:29:13.130" endtime="20181019 13:29:16.099"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Send.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:29:17.037" level="INFO">Params: [C:/Automacao_Robot/STC/img/Send.PNG]</msg>
+<msg timestamp="20181019 13:29:17.037" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966556333.png'/&gt;
+[log] CLICK on L(533,528)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:29:16.099" endtime="20181019 13:29:17.037"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20181019 13:29:27.043" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20181019 13:29:17.037" endtime="20181019 13:29:27.043"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == 10000</arg>
+<arg>log</arg>
+<arg>Acabou o loop</arg>
+</arguments>
+<status status="PASS" starttime="20181019 13:29:27.043" endtime="20181019 13:29:27.043"></status>
+</kw>
+<status status="PASS" starttime="20181019 13:29:09.849" endtime="20181019 13:29:27.043"></status>
+</kw>
+<kw name="${i} = 4" type="foritem">
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${TODAY}</var>
+</assign>
+<msg timestamp="20181019 13:29:27.043" level="INFO">${TODAY} = 2018-10-19 13:29:27.043</msg>
+<status status="PASS" starttime="20181019 13:29:27.043" endtime="20181019 13:29:27.043"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/FremessageA.JPG</arg>
+<arg>C:/Automacao_Robot/STC/img/FremessageB.JPG</arg>
+</arguments>
+<msg timestamp="20181019 13:29:27.871" level="INFO">Params: [C:/Automacao_Robot/STC/img/FremessageA.JPG, C:/Automacao_Robot/STC/img/FremessageB.JPG]</msg>
+<msg timestamp="20181019 13:29:27.871" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966567246.png'/&gt;
+C:/Automacao_Robot/STC/img/FremessageA.JPG is found!</msg>
+<msg timestamp="20181019 13:29:27.871" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966567293.png'/&gt;
+[log] CLICK on L(51,728)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:29:27.043" endtime="20181019 13:29:27.871"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem.PNG</arg>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:29:29.043" level="INFO">Params: [C:/Automacao_Robot/STC/img/ComboboxTrem.PNG, C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG]</msg>
+<msg timestamp="20181019 13:29:29.043" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966568465.png'/&gt;
+C:/Automacao_Robot/STC/img/ComboboxTrem.PNG is found!</msg>
+<msg timestamp="20181019 13:29:29.043" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966568512.png'/&gt;
+[log] CLICK on L(602,482)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:29:27.871" endtime="20181019 13:29:29.043"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Loco.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:29:29.918" level="INFO">Params: [C:/Automacao_Robot/STC/img/Loco.PNG]</msg>
+<msg timestamp="20181019 13:29:29.918" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966569215.png'/&gt;
+[log] CLICK on L(512,500)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:29:29.043" endtime="20181019 13:29:29.918"></status>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<doc>Input text. Image could be empty</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Texto.PNG</arg>
+<arg>TESTE ${I} ${TODAY}</arg>
+</arguments>
+<msg timestamp="20181019 13:29:32.887" level="INFO">Params: [C:/Automacao_Robot/STC/img/Texto.PNG, TESTE 4 2018-10-19 13:29:27.043]
+Input Text:
+TESTE 4 2018-10-19 13:29:27.043</msg>
+<msg timestamp="20181019 13:29:32.887" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966570074.png'/&gt;
+[log] CLICK on L(794,418)@S(0)[0,0 1440x900] (531 msec)
+[log]  TYPE "TESTE 4 2018-10-19 13:29:27.043"</msg>
+<status status="PASS" starttime="20181019 13:29:29.918" endtime="20181019 13:29:32.887"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Send.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:29:33.809" level="INFO">Params: [C:/Automacao_Robot/STC/img/Send.PNG]</msg>
+<msg timestamp="20181019 13:29:33.809" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966573090.png'/&gt;
+[log] CLICK on L(533,528)@S(0)[0,0 1440x900] (532 msec)</msg>
+<status status="PASS" starttime="20181019 13:29:32.887" endtime="20181019 13:29:33.809"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20181019 13:29:43.810" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20181019 13:29:33.809" endtime="20181019 13:29:43.810"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == 10000</arg>
+<arg>log</arg>
+<arg>Acabou o loop</arg>
+</arguments>
+<status status="PASS" starttime="20181019 13:29:43.810" endtime="20181019 13:29:43.810"></status>
+</kw>
+<status status="PASS" starttime="20181019 13:29:27.043" endtime="20181019 13:29:43.810"></status>
+</kw>
+<kw name="${i} = 5" type="foritem">
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${TODAY}</var>
+</assign>
+<msg timestamp="20181019 13:29:43.810" level="INFO">${TODAY} = 2018-10-19 13:29:43.810</msg>
+<status status="PASS" starttime="20181019 13:29:43.810" endtime="20181019 13:29:43.810"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/FremessageA.JPG</arg>
+<arg>C:/Automacao_Robot/STC/img/FremessageB.JPG</arg>
+</arguments>
+<msg timestamp="20181019 13:29:44.591" level="INFO">Params: [C:/Automacao_Robot/STC/img/FremessageA.JPG, C:/Automacao_Robot/STC/img/FremessageB.JPG]</msg>
+<msg timestamp="20181019 13:29:44.591" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966583997.png'/&gt;
+C:/Automacao_Robot/STC/img/FremessageA.JPG is found!</msg>
+<msg timestamp="20181019 13:29:44.591" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966584044.png'/&gt;
+[log] CLICK on L(51,728)@S(0)[0,0 1440x900] (532 msec)</msg>
+<status status="PASS" starttime="20181019 13:29:43.810" endtime="20181019 13:29:44.591"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem.PNG</arg>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:29:45.763" level="INFO">Params: [C:/Automacao_Robot/STC/img/ComboboxTrem.PNG, C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG]</msg>
+<msg timestamp="20181019 13:29:45.763" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966585184.png'/&gt;
+C:/Automacao_Robot/STC/img/ComboboxTrem.PNG is found!</msg>
+<msg timestamp="20181019 13:29:45.763" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966585231.png'/&gt;
+[log] CLICK on L(602,482)@S(0)[0,0 1440x900] (532 msec)</msg>
+<status status="PASS" starttime="20181019 13:29:44.591" endtime="20181019 13:29:45.763"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Loco.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:29:47.013" level="INFO">Params: [C:/Automacao_Robot/STC/img/Loco.PNG]</msg>
+<msg timestamp="20181019 13:29:47.013" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966586310.png'/&gt;
+[log] CLICK on L(512,500)@S(0)[0,0 1440x900] (532 msec)</msg>
+<status status="PASS" starttime="20181019 13:29:45.763" endtime="20181019 13:29:47.013"></status>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<doc>Input text. Image could be empty</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Texto.PNG</arg>
+<arg>TESTE ${I} ${TODAY}</arg>
+</arguments>
+<msg timestamp="20181019 13:29:49.998" level="INFO">Params: [C:/Automacao_Robot/STC/img/Texto.PNG, TESTE 5 2018-10-19 13:29:43.810]
+Input Text:
+TESTE 5 2018-10-19 13:29:43.810</msg>
+<msg timestamp="20181019 13:29:49.998" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966587169.png'/&gt;
+[log] CLICK on L(794,418)@S(0)[0,0 1440x900] (531 msec)
+[log]  TYPE "TESTE 5 2018-10-19 13:29:43.810"</msg>
+<status status="PASS" starttime="20181019 13:29:47.013" endtime="20181019 13:29:49.998"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Send.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:29:50.951" level="INFO">Params: [C:/Automacao_Robot/STC/img/Send.PNG]</msg>
+<msg timestamp="20181019 13:29:50.951" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966590232.png'/&gt;
+[log] CLICK on L(533,528)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:29:49.998" endtime="20181019 13:29:50.951"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20181019 13:30:00.952" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20181019 13:29:50.951" endtime="20181019 13:30:00.952"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == 10000</arg>
+<arg>log</arg>
+<arg>Acabou o loop</arg>
+</arguments>
+<status status="PASS" starttime="20181019 13:30:00.952" endtime="20181019 13:30:00.952"></status>
+</kw>
+<status status="PASS" starttime="20181019 13:29:43.810" endtime="20181019 13:30:00.952"></status>
+</kw>
+<kw name="${i} = 6" type="foritem">
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${TODAY}</var>
+</assign>
+<msg timestamp="20181019 13:30:00.952" level="INFO">${TODAY} = 2018-10-19 13:30:00.952</msg>
+<status status="PASS" starttime="20181019 13:30:00.952" endtime="20181019 13:30:00.952"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/FremessageA.JPG</arg>
+<arg>C:/Automacao_Robot/STC/img/FremessageB.JPG</arg>
+</arguments>
+<msg timestamp="20181019 13:30:01.702" level="INFO">Params: [C:/Automacao_Robot/STC/img/FremessageA.JPG, C:/Automacao_Robot/STC/img/FremessageB.JPG]</msg>
+<msg timestamp="20181019 13:30:01.702" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966601123.png'/&gt;
+C:/Automacao_Robot/STC/img/FremessageA.JPG is found!</msg>
+<msg timestamp="20181019 13:30:01.702" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966601154.png'/&gt;
+[log] CLICK on L(51,728)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:30:00.952" endtime="20181019 13:30:01.702"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem.PNG</arg>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:30:02.889" level="INFO">Params: [C:/Automacao_Robot/STC/img/ComboboxTrem.PNG, C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG]</msg>
+<msg timestamp="20181019 13:30:02.889" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966602310.png'/&gt;
+C:/Automacao_Robot/STC/img/ComboboxTrem.PNG is found!</msg>
+<msg timestamp="20181019 13:30:02.889" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966602342.png'/&gt;
+[log] CLICK on L(602,482)@S(0)[0,0 1440x900] (532 msec)</msg>
+<status status="PASS" starttime="20181019 13:30:01.702" endtime="20181019 13:30:02.889"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Loco.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:30:03.764" level="INFO">Params: [C:/Automacao_Robot/STC/img/Loco.PNG]</msg>
+<msg timestamp="20181019 13:30:03.764" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966603061.png'/&gt;
+[log] CLICK on L(512,500)@S(0)[0,0 1440x900] (532 msec)</msg>
+<status status="PASS" starttime="20181019 13:30:02.889" endtime="20181019 13:30:03.764"></status>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<doc>Input text. Image could be empty</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Texto.PNG</arg>
+<arg>TESTE ${I} ${TODAY}</arg>
+</arguments>
+<msg timestamp="20181019 13:30:06.764" level="INFO">Params: [C:/Automacao_Robot/STC/img/Texto.PNG, TESTE 6 2018-10-19 13:30:00.952]
+Input Text:
+TESTE 6 2018-10-19 13:30:00.952</msg>
+<msg timestamp="20181019 13:30:06.764" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966603920.png'/&gt;
+[log] CLICK on L(794,418)@S(0)[0,0 1440x900] (532 msec)
+[log]  TYPE "TESTE 6 2018-10-19 13:30:00.952"</msg>
+<status status="PASS" starttime="20181019 13:30:03.764" endtime="20181019 13:30:06.764"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Send.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:30:07.702" level="INFO">Params: [C:/Automacao_Robot/STC/img/Send.PNG]</msg>
+<msg timestamp="20181019 13:30:07.702" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966606983.png'/&gt;
+[log] CLICK on L(533,528)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:30:06.764" endtime="20181019 13:30:07.702"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20181019 13:30:17.703" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20181019 13:30:07.702" endtime="20181019 13:30:17.703"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == 10000</arg>
+<arg>log</arg>
+<arg>Acabou o loop</arg>
+</arguments>
+<status status="PASS" starttime="20181019 13:30:17.703" endtime="20181019 13:30:17.703"></status>
+</kw>
+<status status="PASS" starttime="20181019 13:30:00.952" endtime="20181019 13:30:17.703"></status>
+</kw>
+<kw name="${i} = 7" type="foritem">
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${TODAY}</var>
+</assign>
+<msg timestamp="20181019 13:30:17.703" level="INFO">${TODAY} = 2018-10-19 13:30:17.703</msg>
+<status status="PASS" starttime="20181019 13:30:17.703" endtime="20181019 13:30:17.703"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/FremessageA.JPG</arg>
+<arg>C:/Automacao_Robot/STC/img/FremessageB.JPG</arg>
+</arguments>
+<msg timestamp="20181019 13:30:18.562" level="INFO">Params: [C:/Automacao_Robot/STC/img/FremessageA.JPG, C:/Automacao_Robot/STC/img/FremessageB.JPG]</msg>
+<msg timestamp="20181019 13:30:18.562" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966617921.png'/&gt;
+C:/Automacao_Robot/STC/img/FremessageA.JPG is found!</msg>
+<msg timestamp="20181019 13:30:18.562" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966617983.png'/&gt;
+[log] CLICK on L(51,728)@S(0)[0,0 1440x900] (532 msec)</msg>
+<status status="PASS" starttime="20181019 13:30:17.703" endtime="20181019 13:30:18.562"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem.PNG</arg>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:30:19.734" level="INFO">Params: [C:/Automacao_Robot/STC/img/ComboboxTrem.PNG, C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG]</msg>
+<msg timestamp="20181019 13:30:19.734" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966619155.png'/&gt;
+C:/Automacao_Robot/STC/img/ComboboxTrem.PNG is found!</msg>
+<msg timestamp="20181019 13:30:19.734" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966619202.png'/&gt;
+[log] CLICK on L(602,482)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:30:18.562" endtime="20181019 13:30:19.734"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Loco.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:30:20.593" level="INFO">Params: [C:/Automacao_Robot/STC/img/Loco.PNG]</msg>
+<msg timestamp="20181019 13:30:20.593" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966619921.png'/&gt;
+[log] CLICK on L(512,500)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:30:19.734" endtime="20181019 13:30:20.593"></status>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<doc>Input text. Image could be empty</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Texto.PNG</arg>
+<arg>TESTE ${I} ${TODAY}</arg>
+</arguments>
+<msg timestamp="20181019 13:30:23.594" level="INFO">Params: [C:/Automacao_Robot/STC/img/Texto.PNG, TESTE 7 2018-10-19 13:30:17.703]
+Input Text:
+TESTE 7 2018-10-19 13:30:17.703</msg>
+<msg timestamp="20181019 13:30:23.594" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966620749.png'/&gt;
+[log] CLICK on L(794,418)@S(0)[0,0 1440x900] (532 msec)
+[log]  TYPE "TESTE 7 2018-10-19 13:30:17.703"</msg>
+<status status="PASS" starttime="20181019 13:30:20.593" endtime="20181019 13:30:23.594"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Send.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:30:24.609" level="INFO">Params: [C:/Automacao_Robot/STC/img/Send.PNG]</msg>
+<msg timestamp="20181019 13:30:24.609" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966623859.png'/&gt;
+[log] CLICK on L(533,528)@S(0)[0,0 1440x900] (532 msec)</msg>
+<status status="PASS" starttime="20181019 13:30:23.594" endtime="20181019 13:30:24.609"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20181019 13:30:34.610" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20181019 13:30:24.609" endtime="20181019 13:30:34.610"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == 10000</arg>
+<arg>log</arg>
+<arg>Acabou o loop</arg>
+</arguments>
+<status status="PASS" starttime="20181019 13:30:34.610" endtime="20181019 13:30:34.610"></status>
+</kw>
+<status status="PASS" starttime="20181019 13:30:17.703" endtime="20181019 13:30:34.610"></status>
+</kw>
+<kw name="${i} = 8" type="foritem">
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${TODAY}</var>
+</assign>
+<msg timestamp="20181019 13:30:34.610" level="INFO">${TODAY} = 2018-10-19 13:30:34.610</msg>
+<status status="PASS" starttime="20181019 13:30:34.610" endtime="20181019 13:30:34.610"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/FremessageA.JPG</arg>
+<arg>C:/Automacao_Robot/STC/img/FremessageB.JPG</arg>
+</arguments>
+<msg timestamp="20181019 13:30:35.391" level="INFO">Params: [C:/Automacao_Robot/STC/img/FremessageA.JPG, C:/Automacao_Robot/STC/img/FremessageB.JPG]</msg>
+<msg timestamp="20181019 13:30:35.391" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966634813.png'/&gt;
+C:/Automacao_Robot/STC/img/FremessageA.JPG is found!</msg>
+<msg timestamp="20181019 13:30:35.391" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966634844.png'/&gt;
+[log] CLICK on L(51,728)@S(0)[0,0 1440x900] (532 msec)</msg>
+<status status="PASS" starttime="20181019 13:30:34.610" endtime="20181019 13:30:35.391"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem.PNG</arg>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:30:36.594" level="INFO">Params: [C:/Automacao_Robot/STC/img/ComboboxTrem.PNG, C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG]</msg>
+<msg timestamp="20181019 13:30:36.594" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966636016.png'/&gt;
+C:/Automacao_Robot/STC/img/ComboboxTrem.PNG is found!</msg>
+<msg timestamp="20181019 13:30:36.594" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966636047.png'/&gt;
+[log] CLICK on L(602,482)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:30:35.391" endtime="20181019 13:30:36.594"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Loco.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:30:37.469" level="INFO">Params: [C:/Automacao_Robot/STC/img/Loco.PNG]</msg>
+<msg timestamp="20181019 13:30:37.469" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966636781.png'/&gt;
+[log] CLICK on L(512,500)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:30:36.594" endtime="20181019 13:30:37.469"></status>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<doc>Input text. Image could be empty</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Texto.PNG</arg>
+<arg>TESTE ${I} ${TODAY}</arg>
+</arguments>
+<msg timestamp="20181019 13:30:40.438" level="INFO">Params: [C:/Automacao_Robot/STC/img/Texto.PNG, TESTE 8 2018-10-19 13:30:34.610]
+Input Text:
+TESTE 8 2018-10-19 13:30:34.610</msg>
+<msg timestamp="20181019 13:30:40.438" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966637625.png'/&gt;
+[log] CLICK on L(794,418)@S(0)[0,0 1440x900] (531 msec)
+[log]  TYPE "TESTE 8 2018-10-19 13:30:34.610"</msg>
+<status status="PASS" starttime="20181019 13:30:37.469" endtime="20181019 13:30:40.438"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Send.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:30:41.392" level="INFO">Params: [C:/Automacao_Robot/STC/img/Send.PNG]</msg>
+<msg timestamp="20181019 13:30:41.392" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966640672.png'/&gt;
+[log] CLICK on L(533,528)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:30:40.438" endtime="20181019 13:30:41.392"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20181019 13:30:51.392" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20181019 13:30:41.392" endtime="20181019 13:30:51.392"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == 10000</arg>
+<arg>log</arg>
+<arg>Acabou o loop</arg>
+</arguments>
+<status status="PASS" starttime="20181019 13:30:51.392" endtime="20181019 13:30:51.392"></status>
+</kw>
+<status status="PASS" starttime="20181019 13:30:34.610" endtime="20181019 13:30:51.392"></status>
+</kw>
+<kw name="${i} = 9" type="foritem">
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${TODAY}</var>
+</assign>
+<msg timestamp="20181019 13:30:51.392" level="INFO">${TODAY} = 2018-10-19 13:30:51.392</msg>
+<status status="PASS" starttime="20181019 13:30:51.392" endtime="20181019 13:30:51.392"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/FremessageA.JPG</arg>
+<arg>C:/Automacao_Robot/STC/img/FremessageB.JPG</arg>
+</arguments>
+<msg timestamp="20181019 13:30:52.205" level="INFO">Params: [C:/Automacao_Robot/STC/img/FremessageA.JPG, C:/Automacao_Robot/STC/img/FremessageB.JPG]</msg>
+<msg timestamp="20181019 13:30:52.205" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966651626.png'/&gt;
+C:/Automacao_Robot/STC/img/FremessageA.JPG is found!</msg>
+<msg timestamp="20181019 13:30:52.205" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966651673.png'/&gt;
+[log] CLICK on L(51,728)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:30:51.392" endtime="20181019 13:30:52.205"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem.PNG</arg>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:30:53.392" level="INFO">Params: [C:/Automacao_Robot/STC/img/ComboboxTrem.PNG, C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG]</msg>
+<msg timestamp="20181019 13:30:53.392" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966652798.png'/&gt;
+C:/Automacao_Robot/STC/img/ComboboxTrem.PNG is found!</msg>
+<msg timestamp="20181019 13:30:53.392" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966652845.png'/&gt;
+[log] CLICK on L(602,482)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:30:52.205" endtime="20181019 13:30:53.392"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Loco.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:30:54.283" level="INFO">Params: [C:/Automacao_Robot/STC/img/Loco.PNG]</msg>
+<msg timestamp="20181019 13:30:54.283" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966653579.png'/&gt;
+[log] CLICK on L(512,500)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:30:53.392" endtime="20181019 13:30:54.283"></status>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<doc>Input text. Image could be empty</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Texto.PNG</arg>
+<arg>TESTE ${I} ${TODAY}</arg>
+</arguments>
+<msg timestamp="20181019 13:30:57.252" level="INFO">Params: [C:/Automacao_Robot/STC/img/Texto.PNG, TESTE 9 2018-10-19 13:30:51.392]
+Input Text:
+TESTE 9 2018-10-19 13:30:51.392</msg>
+<msg timestamp="20181019 13:30:57.252" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966654439.png'/&gt;
+[log] CLICK on L(794,418)@S(0)[0,0 1440x900] (531 msec)
+[log]  TYPE "TESTE 9 2018-10-19 13:30:51.392"</msg>
+<status status="PASS" starttime="20181019 13:30:54.283" endtime="20181019 13:30:57.252"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Send.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:30:58.205" level="INFO">Params: [C:/Automacao_Robot/STC/img/Send.PNG]</msg>
+<msg timestamp="20181019 13:30:58.205" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966657501.png'/&gt;
+[log] CLICK on L(533,528)@S(0)[0,0 1440x900] (532 msec)</msg>
+<status status="PASS" starttime="20181019 13:30:57.252" endtime="20181019 13:30:58.205"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20181019 13:31:08.206" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20181019 13:30:58.205" endtime="20181019 13:31:08.206"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == 10000</arg>
+<arg>log</arg>
+<arg>Acabou o loop</arg>
+</arguments>
+<status status="PASS" starttime="20181019 13:31:08.206" endtime="20181019 13:31:08.206"></status>
+</kw>
+<status status="PASS" starttime="20181019 13:30:51.392" endtime="20181019 13:31:08.206"></status>
+</kw>
+<kw name="${i} = 10" type="foritem">
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${TODAY}</var>
+</assign>
+<msg timestamp="20181019 13:31:08.206" level="INFO">${TODAY} = 2018-10-19 13:31:08.206</msg>
+<status status="PASS" starttime="20181019 13:31:08.206" endtime="20181019 13:31:08.206"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/FremessageA.JPG</arg>
+<arg>C:/Automacao_Robot/STC/img/FremessageB.JPG</arg>
+</arguments>
+<msg timestamp="20181019 13:31:09.018" level="INFO">Params: [C:/Automacao_Robot/STC/img/FremessageA.JPG, C:/Automacao_Robot/STC/img/FremessageB.JPG]</msg>
+<msg timestamp="20181019 13:31:09.018" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966668424.png'/&gt;
+C:/Automacao_Robot/STC/img/FremessageA.JPG is found!</msg>
+<msg timestamp="20181019 13:31:09.018" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966668471.png'/&gt;
+[log] CLICK on L(51,728)@S(0)[0,0 1440x900] (532 msec)</msg>
+<status status="PASS" starttime="20181019 13:31:08.206" endtime="20181019 13:31:09.018"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem.PNG</arg>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:31:10.175" level="INFO">Params: [C:/Automacao_Robot/STC/img/ComboboxTrem.PNG, C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG]</msg>
+<msg timestamp="20181019 13:31:10.175" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966669612.png'/&gt;
+C:/Automacao_Robot/STC/img/ComboboxTrem.PNG is found!</msg>
+<msg timestamp="20181019 13:31:10.175" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966669643.png'/&gt;
+[log] CLICK on L(602,482)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:31:09.018" endtime="20181019 13:31:10.175"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Loco.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:31:11.034" level="INFO">Params: [C:/Automacao_Robot/STC/img/Loco.PNG]</msg>
+<msg timestamp="20181019 13:31:11.034" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966670362.png'/&gt;
+[log] CLICK on L(512,500)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:31:10.175" endtime="20181019 13:31:11.034"></status>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<doc>Input text. Image could be empty</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Texto.PNG</arg>
+<arg>TESTE ${I} ${TODAY}</arg>
+</arguments>
+<msg timestamp="20181019 13:31:14.082" level="INFO">Params: [C:/Automacao_Robot/STC/img/Texto.PNG, TESTE 10 2018-10-19 13:31:08.206]
+Input Text:
+TESTE 10 2018-10-19 13:31:08.206</msg>
+<msg timestamp="20181019 13:31:14.082" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966671190.png'/&gt;
+[log] CLICK on L(794,418)@S(0)[0,0 1440x900] (531 msec)
+[log]  TYPE "TESTE 10 2018-10-19 13:31:08.206"</msg>
+<status status="PASS" starttime="20181019 13:31:11.034" endtime="20181019 13:31:14.082"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Send.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:31:15.082" level="INFO">Params: [C:/Automacao_Robot/STC/img/Send.PNG]</msg>
+<msg timestamp="20181019 13:31:15.082" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966674348.png'/&gt;
+[log] CLICK on L(533,528)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:31:14.082" endtime="20181019 13:31:15.082"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20181019 13:31:25.083" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20181019 13:31:15.082" endtime="20181019 13:31:25.083"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == 10000</arg>
+<arg>log</arg>
+<arg>Acabou o loop</arg>
+</arguments>
+<status status="PASS" starttime="20181019 13:31:25.083" endtime="20181019 13:31:25.083"></status>
+</kw>
+<status status="PASS" starttime="20181019 13:31:08.206" endtime="20181019 13:31:25.083"></status>
+</kw>
+<kw name="${i} = 11" type="foritem">
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${TODAY}</var>
+</assign>
+<msg timestamp="20181019 13:31:25.083" level="INFO">${TODAY} = 2018-10-19 13:31:25.083</msg>
+<status status="PASS" starttime="20181019 13:31:25.083" endtime="20181019 13:31:25.083"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/FremessageA.JPG</arg>
+<arg>C:/Automacao_Robot/STC/img/FremessageB.JPG</arg>
+</arguments>
+<msg timestamp="20181019 13:31:25.833" level="INFO">Params: [C:/Automacao_Robot/STC/img/FremessageA.JPG, C:/Automacao_Robot/STC/img/FremessageB.JPG]</msg>
+<msg timestamp="20181019 13:31:25.833" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966685254.png'/&gt;
+C:/Automacao_Robot/STC/img/FremessageA.JPG is found!</msg>
+<msg timestamp="20181019 13:31:25.833" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966685286.png'/&gt;
+[log] CLICK on L(51,728)@S(0)[0,0 1440x900] (532 msec)</msg>
+<status status="PASS" starttime="20181019 13:31:25.083" endtime="20181019 13:31:25.833"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem.PNG</arg>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:31:27.021" level="INFO">Params: [C:/Automacao_Robot/STC/img/ComboboxTrem.PNG, C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG]</msg>
+<msg timestamp="20181019 13:31:27.021" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966686442.png'/&gt;
+C:/Automacao_Robot/STC/img/ComboboxTrem.PNG is found!</msg>
+<msg timestamp="20181019 13:31:27.021" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966686473.png'/&gt;
+[log] CLICK on L(602,482)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:31:25.833" endtime="20181019 13:31:27.021"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Loco.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:31:27.896" level="INFO">Params: [C:/Automacao_Robot/STC/img/Loco.PNG]</msg>
+<msg timestamp="20181019 13:31:27.896" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966687208.png'/&gt;
+[log] CLICK on L(512,500)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:31:27.021" endtime="20181019 13:31:27.896"></status>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<doc>Input text. Image could be empty</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Texto.PNG</arg>
+<arg>TESTE ${I} ${TODAY}</arg>
+</arguments>
+<msg timestamp="20181019 13:31:30.990" level="INFO">Params: [C:/Automacao_Robot/STC/img/Texto.PNG, TESTE 11 2018-10-19 13:31:25.083]
+Input Text:
+TESTE 11 2018-10-19 13:31:25.083</msg>
+<msg timestamp="20181019 13:31:30.990" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966688067.png'/&gt;
+[log] CLICK on L(794,418)@S(0)[0,0 1440x900] (531 msec)
+[log]  TYPE "TESTE 11 2018-10-19 13:31:25.083"</msg>
+<status status="PASS" starttime="20181019 13:31:27.896" endtime="20181019 13:31:30.990"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Send.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:31:32.083" level="INFO">Params: [C:/Automacao_Robot/STC/img/Send.PNG]</msg>
+<msg timestamp="20181019 13:31:32.083" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966691224.png'/&gt;
+[log] CLICK on L(533,528)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:31:30.990" endtime="20181019 13:31:32.083"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20181019 13:31:42.084" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20181019 13:31:32.083" endtime="20181019 13:31:42.084"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == 10000</arg>
+<arg>log</arg>
+<arg>Acabou o loop</arg>
+</arguments>
+<status status="PASS" starttime="20181019 13:31:42.084" endtime="20181019 13:31:42.084"></status>
+</kw>
+<status status="PASS" starttime="20181019 13:31:25.083" endtime="20181019 13:31:42.084"></status>
+</kw>
+<kw name="${i} = 12" type="foritem">
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${TODAY}</var>
+</assign>
+<msg timestamp="20181019 13:31:42.084" level="INFO">${TODAY} = 2018-10-19 13:31:42.084</msg>
+<status status="PASS" starttime="20181019 13:31:42.084" endtime="20181019 13:31:42.084"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/FremessageA.JPG</arg>
+<arg>C:/Automacao_Robot/STC/img/FremessageB.JPG</arg>
+</arguments>
+<msg timestamp="20181019 13:31:42.897" level="INFO">Params: [C:/Automacao_Robot/STC/img/FremessageA.JPG, C:/Automacao_Robot/STC/img/FremessageB.JPG]</msg>
+<msg timestamp="20181019 13:31:42.897" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966702318.png'/&gt;
+C:/Automacao_Robot/STC/img/FremessageA.JPG is found!</msg>
+<msg timestamp="20181019 13:31:42.897" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966702365.png'/&gt;
+[log] CLICK on L(51,728)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:31:42.084" endtime="20181019 13:31:42.897"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem.PNG</arg>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:31:44.069" level="INFO">Params: [C:/Automacao_Robot/STC/img/ComboboxTrem.PNG, C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG]</msg>
+<msg timestamp="20181019 13:31:44.069" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966703490.png'/&gt;
+C:/Automacao_Robot/STC/img/ComboboxTrem.PNG is found!</msg>
+<msg timestamp="20181019 13:31:44.069" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966703537.png'/&gt;
+[log] CLICK on L(602,482)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:31:42.897" endtime="20181019 13:31:44.069"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Loco.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:31:44.912" level="INFO">Params: [C:/Automacao_Robot/STC/img/Loco.PNG]</msg>
+<msg timestamp="20181019 13:31:44.912" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966704224.png'/&gt;
+[log] CLICK on L(512,500)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:31:44.069" endtime="20181019 13:31:44.912"></status>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<doc>Input text. Image could be empty</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Texto.PNG</arg>
+<arg>TESTE ${I} ${TODAY}</arg>
+</arguments>
+<msg timestamp="20181019 13:31:47.944" level="INFO">Params: [C:/Automacao_Robot/STC/img/Texto.PNG, TESTE 12 2018-10-19 13:31:42.084]
+Input Text:
+TESTE 12 2018-10-19 13:31:42.084</msg>
+<msg timestamp="20181019 13:31:47.944" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966705068.png'/&gt;
+[log] CLICK on L(794,418)@S(0)[0,0 1440x900] (531 msec)
+[log]  TYPE "TESTE 12 2018-10-19 13:31:42.084"</msg>
+<status status="PASS" starttime="20181019 13:31:44.912" endtime="20181019 13:31:47.944"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Send.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:31:48.881" level="INFO">Params: [C:/Automacao_Robot/STC/img/Send.PNG]</msg>
+<msg timestamp="20181019 13:31:48.881" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966708178.png'/&gt;
+[log] CLICK on L(533,528)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:31:47.944" endtime="20181019 13:31:48.881"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20181019 13:31:58.882" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20181019 13:31:48.881" endtime="20181019 13:31:58.882"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == 10000</arg>
+<arg>log</arg>
+<arg>Acabou o loop</arg>
+</arguments>
+<status status="PASS" starttime="20181019 13:31:58.882" endtime="20181019 13:31:58.882"></status>
+</kw>
+<status status="PASS" starttime="20181019 13:31:42.084" endtime="20181019 13:31:58.882"></status>
+</kw>
+<kw name="${i} = 13" type="foritem">
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${TODAY}</var>
+</assign>
+<msg timestamp="20181019 13:31:58.882" level="INFO">${TODAY} = 2018-10-19 13:31:58.882</msg>
+<status status="PASS" starttime="20181019 13:31:58.882" endtime="20181019 13:31:58.882"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/FremessageA.JPG</arg>
+<arg>C:/Automacao_Robot/STC/img/FremessageB.JPG</arg>
+</arguments>
+<msg timestamp="20181019 13:31:59.679" level="INFO">Params: [C:/Automacao_Robot/STC/img/FremessageA.JPG, C:/Automacao_Robot/STC/img/FremessageB.JPG]</msg>
+<msg timestamp="20181019 13:31:59.679" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966719085.png'/&gt;
+C:/Automacao_Robot/STC/img/FremessageA.JPG is found!</msg>
+<msg timestamp="20181019 13:31:59.679" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966719132.png'/&gt;
+[log] CLICK on L(51,728)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:31:58.882" endtime="20181019 13:31:59.679"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem.PNG</arg>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:32:00.851" level="INFO">Params: [C:/Automacao_Robot/STC/img/ComboboxTrem.PNG, C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG]</msg>
+<msg timestamp="20181019 13:32:00.851" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966720272.png'/&gt;
+C:/Automacao_Robot/STC/img/ComboboxTrem.PNG is found!</msg>
+<msg timestamp="20181019 13:32:00.851" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966720319.png'/&gt;
+[log] CLICK on L(602,482)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:31:59.679" endtime="20181019 13:32:00.851"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Loco.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:32:01.726" level="INFO">Params: [C:/Automacao_Robot/STC/img/Loco.PNG]</msg>
+<msg timestamp="20181019 13:32:01.726" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966721038.png'/&gt;
+[log] CLICK on L(512,500)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:32:00.851" endtime="20181019 13:32:01.726"></status>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<doc>Input text. Image could be empty</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Texto.PNG</arg>
+<arg>TESTE ${I} ${TODAY}</arg>
+</arguments>
+<msg timestamp="20181019 13:32:04.773" level="INFO">Params: [C:/Automacao_Robot/STC/img/Texto.PNG, TESTE 13 2018-10-19 13:31:58.882]
+Input Text:
+TESTE 13 2018-10-19 13:31:58.882</msg>
+<msg timestamp="20181019 13:32:04.773" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966721882.png'/&gt;
+[log] CLICK on L(794,418)@S(0)[0,0 1440x900] (532 msec)
+[log]  TYPE "TESTE 13 2018-10-19 13:31:58.882"</msg>
+<status status="PASS" starttime="20181019 13:32:01.726" endtime="20181019 13:32:04.773"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Send.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:32:05.789" level="INFO">Params: [C:/Automacao_Robot/STC/img/Send.PNG]</msg>
+<msg timestamp="20181019 13:32:05.789" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966725054.png'/&gt;
+[log] CLICK on L(533,528)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:32:04.773" endtime="20181019 13:32:05.789"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20181019 13:32:15.789" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20181019 13:32:05.789" endtime="20181019 13:32:15.789"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == 10000</arg>
+<arg>log</arg>
+<arg>Acabou o loop</arg>
+</arguments>
+<status status="PASS" starttime="20181019 13:32:15.789" endtime="20181019 13:32:15.789"></status>
+</kw>
+<status status="PASS" starttime="20181019 13:31:58.882" endtime="20181019 13:32:15.789"></status>
+</kw>
+<kw name="${i} = 14" type="foritem">
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${TODAY}</var>
+</assign>
+<msg timestamp="20181019 13:32:15.789" level="INFO">${TODAY} = 2018-10-19 13:32:15.789</msg>
+<status status="PASS" starttime="20181019 13:32:15.789" endtime="20181019 13:32:15.789"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/FremessageA.JPG</arg>
+<arg>C:/Automacao_Robot/STC/img/FremessageB.JPG</arg>
+</arguments>
+<msg timestamp="20181019 13:32:16.571" level="INFO">Params: [C:/Automacao_Robot/STC/img/FremessageA.JPG, C:/Automacao_Robot/STC/img/FremessageB.JPG]</msg>
+<msg timestamp="20181019 13:32:16.571" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966735976.png'/&gt;
+C:/Automacao_Robot/STC/img/FremessageA.JPG is found!</msg>
+<msg timestamp="20181019 13:32:16.571" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966736023.png'/&gt;
+[log] CLICK on L(51,728)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:32:15.789" endtime="20181019 13:32:16.571"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem.PNG</arg>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:32:17.774" level="INFO">Params: [C:/Automacao_Robot/STC/img/ComboboxTrem.PNG, C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG]</msg>
+<msg timestamp="20181019 13:32:17.774" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966737180.png'/&gt;
+C:/Automacao_Robot/STC/img/ComboboxTrem.PNG is found!</msg>
+<msg timestamp="20181019 13:32:17.774" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966737226.png'/&gt;
+[log] CLICK on L(602,482)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:32:16.571" endtime="20181019 13:32:17.774"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Loco.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:32:18.665" level="INFO">Params: [C:/Automacao_Robot/STC/img/Loco.PNG]</msg>
+<msg timestamp="20181019 13:32:18.665" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966737961.png'/&gt;
+[log] CLICK on L(512,500)@S(0)[0,0 1440x900] (547 msec)</msg>
+<status status="PASS" starttime="20181019 13:32:17.774" endtime="20181019 13:32:18.665"></status>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<doc>Input text. Image could be empty</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Texto.PNG</arg>
+<arg>TESTE ${I} ${TODAY}</arg>
+</arguments>
+<msg timestamp="20181019 13:32:21.712" level="INFO">Params: [C:/Automacao_Robot/STC/img/Texto.PNG, TESTE 14 2018-10-19 13:32:15.789]
+Input Text:
+TESTE 14 2018-10-19 13:32:15.789</msg>
+<msg timestamp="20181019 13:32:21.712" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966738836.png'/&gt;
+[log] CLICK on L(794,418)@S(0)[0,0 1440x900] (531 msec)
+[log]  TYPE "TESTE 14 2018-10-19 13:32:15.789"</msg>
+<status status="PASS" starttime="20181019 13:32:18.665" endtime="20181019 13:32:21.712"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Send.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:32:22.633" level="INFO">Params: [C:/Automacao_Robot/STC/img/Send.PNG]</msg>
+<msg timestamp="20181019 13:32:22.633" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966741914.png'/&gt;
+[log] CLICK on L(533,528)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:32:21.712" endtime="20181019 13:32:22.633"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20181019 13:32:32.634" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20181019 13:32:22.633" endtime="20181019 13:32:32.634"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == 10000</arg>
+<arg>log</arg>
+<arg>Acabou o loop</arg>
+</arguments>
+<status status="PASS" starttime="20181019 13:32:32.634" endtime="20181019 13:32:32.634"></status>
+</kw>
+<status status="PASS" starttime="20181019 13:32:15.789" endtime="20181019 13:32:32.634"></status>
+</kw>
+<kw name="${i} = 15" type="foritem">
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${TODAY}</var>
+</assign>
+<msg timestamp="20181019 13:32:32.634" level="INFO">${TODAY} = 2018-10-19 13:32:32.634</msg>
+<status status="PASS" starttime="20181019 13:32:32.634" endtime="20181019 13:32:32.634"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/FremessageA.JPG</arg>
+<arg>C:/Automacao_Robot/STC/img/FremessageB.JPG</arg>
+</arguments>
+<msg timestamp="20181019 13:32:33.431" level="INFO">Params: [C:/Automacao_Robot/STC/img/FremessageA.JPG, C:/Automacao_Robot/STC/img/FremessageB.JPG]</msg>
+<msg timestamp="20181019 13:32:33.431" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966752837.png'/&gt;
+C:/Automacao_Robot/STC/img/FremessageA.JPG is found!</msg>
+<msg timestamp="20181019 13:32:33.431" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966752884.png'/&gt;
+[log] CLICK on L(51,728)@S(0)[0,0 1440x900] (532 msec)</msg>
+<status status="PASS" starttime="20181019 13:32:32.634" endtime="20181019 13:32:33.431"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem.PNG</arg>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:32:34.587" level="INFO">Params: [C:/Automacao_Robot/STC/img/ComboboxTrem.PNG, C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG]</msg>
+<msg timestamp="20181019 13:32:34.587" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966754024.png'/&gt;
+C:/Automacao_Robot/STC/img/ComboboxTrem.PNG is found!</msg>
+<msg timestamp="20181019 13:32:34.587" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966754056.png'/&gt;
+[log] CLICK on L(602,482)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:32:33.431" endtime="20181019 13:32:34.587"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Loco.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:32:35.509" level="INFO">Params: [C:/Automacao_Robot/STC/img/Loco.PNG]</msg>
+<msg timestamp="20181019 13:32:35.509" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966754806.png'/&gt;
+[log] CLICK on L(512,500)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:32:34.587" endtime="20181019 13:32:35.509"></status>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<doc>Input text. Image could be empty</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Texto.PNG</arg>
+<arg>TESTE ${I} ${TODAY}</arg>
+</arguments>
+<msg timestamp="20181019 13:32:38.556" level="INFO">Params: [C:/Automacao_Robot/STC/img/Texto.PNG, TESTE 15 2018-10-19 13:32:32.634]
+Input Text:
+TESTE 15 2018-10-19 13:32:32.634</msg>
+<msg timestamp="20181019 13:32:38.556" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966755665.png'/&gt;
+[log] CLICK on L(794,418)@S(0)[0,0 1440x900] (531 msec)
+[log]  TYPE "TESTE 15 2018-10-19 13:32:32.634"</msg>
+<status status="PASS" starttime="20181019 13:32:35.509" endtime="20181019 13:32:38.556"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Send.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:32:39.525" level="INFO">Params: [C:/Automacao_Robot/STC/img/Send.PNG]</msg>
+<msg timestamp="20181019 13:32:39.525" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966758806.png'/&gt;
+[log] CLICK on L(533,528)@S(0)[0,0 1440x900] (532 msec)</msg>
+<status status="PASS" starttime="20181019 13:32:38.556" endtime="20181019 13:32:39.525"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<msg timestamp="20181019 13:32:49.526" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20181019 13:32:39.525" endtime="20181019 13:32:49.526"></status>
+</kw>
+<kw name="Run Keyword If" library="BuiltIn">
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == 10000</arg>
+<arg>log</arg>
+<arg>Acabou o loop</arg>
+</arguments>
+<status status="PASS" starttime="20181019 13:32:49.526" endtime="20181019 13:32:49.526"></status>
+</kw>
+<status status="PASS" starttime="20181019 13:32:32.634" endtime="20181019 13:32:49.526"></status>
+</kw>
+<kw name="${i} = 16" type="foritem">
+<kw name="Get Current Date" library="DateTime">
+<doc>Returns current local or UTC time with an optional increment.</doc>
+<assign>
+<var>${TODAY}</var>
+</assign>
+<msg timestamp="20181019 13:32:49.526" level="INFO">${TODAY} = 2018-10-19 13:32:49.526</msg>
+<status status="PASS" starttime="20181019 13:32:49.526" endtime="20181019 13:32:49.526"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/FremessageA.JPG</arg>
+<arg>C:/Automacao_Robot/STC/img/FremessageB.JPG</arg>
+</arguments>
+<msg timestamp="20181019 13:32:50.338" level="INFO">Params: [C:/Automacao_Robot/STC/img/FremessageA.JPG, C:/Automacao_Robot/STC/img/FremessageB.JPG]</msg>
+<msg timestamp="20181019 13:32:50.338" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966769744.png'/&gt;
+C:/Automacao_Robot/STC/img/FremessageA.JPG is found!</msg>
+<msg timestamp="20181019 13:32:50.338" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966769791.png'/&gt;
+[log] CLICK on L(51,728)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:32:49.526" endtime="20181019 13:32:50.338"></status>
+</kw>
+<kw name="Click In" library="SikuliLibrary">
+<doc>Click in. </doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem.PNG</arg>
+<arg>C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:32:51.526" level="INFO">Params: [C:/Automacao_Robot/STC/img/ComboboxTrem.PNG, C:/Automacao_Robot/STC/img/ComboboxTrem2.PNG]</msg>
+<msg timestamp="20181019 13:32:51.526" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966770932.png'/&gt;
+C:/Automacao_Robot/STC/img/ComboboxTrem.PNG is found!</msg>
+<msg timestamp="20181019 13:32:51.526" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966770979.png'/&gt;
+[log] CLICK on L(602,482)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:32:50.338" endtime="20181019 13:32:51.526"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Loco.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:32:52.401" level="INFO">Params: [C:/Automacao_Robot/STC/img/Loco.PNG]</msg>
+<msg timestamp="20181019 13:32:52.401" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966771729.png'/&gt;
+[log] CLICK on L(512,500)@S(0)[0,0 1440x900] (531 msec)</msg>
+<status status="PASS" starttime="20181019 13:32:51.526" endtime="20181019 13:32:52.401"></status>
+</kw>
+<kw name="Input Text" library="SikuliLibrary">
+<doc>Input text. Image could be empty</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Texto.PNG</arg>
+<arg>TESTE ${I} ${TODAY}</arg>
+</arguments>
+<msg timestamp="20181019 13:32:55.432" level="INFO">Params: [C:/Automacao_Robot/STC/img/Texto.PNG, TESTE 16 2018-10-19 13:32:49.526]
+Input Text:
+TESTE 16 2018-10-19 13:32:49.526</msg>
+<msg timestamp="20181019 13:32:55.432" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966772557.png'/&gt;
+[log] CLICK on L(794,418)@S(0)[0,0 1440x900] (531 msec)
+[log]  TYPE "TESTE 16 2018-10-19 13:32:49.526"</msg>
+<status status="PASS" starttime="20181019 13:32:52.401" endtime="20181019 13:32:55.432"></status>
+</kw>
+<kw name="Click" library="SikuliLibrary">
+<doc>Click image</doc>
+<arguments>
+<arg>C:/Automacao_Robot/STC/img/Send.PNG</arg>
+</arguments>
+<msg timestamp="20181019 13:32:56.401" level="INFO">Params: [C:/Automacao_Robot/STC/img/Send.PNG]</msg>
+<msg timestamp="20181019 13:32:56.401" level="INFO" html="yes">&lt;img src='sikuli_captured/sikuliximage-1539966775682.png'/&gt;
+[log] CLICK on L(533,528)@S(0)[0,0 1440x900] (532 msec)</msg>
+<status status="PASS" starttime="20181019 13:32:55.432" endtime="20181019 13:32:56.401"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10</arg>
+</arguments>
+<status status="FAIL" starttime="20181019 13:32:56.401" endtime="20181019 13:33:03.982"></status>
+</kw>
+<status status="FAIL" starttime="20181019 13:32:49.526" endtime="20181019 13:33:03.982"></status>
+</kw>
+<status status="FAIL" starttime="20181019 13:28:35.765" endtime="20181019 13:33:03.983"></status>
+</kw>
+<status status="FAIL" starttime="20181019 13:28:35.765" endtime="20181019 13:33:03.984" critical="yes">Execution terminated by signal</status>
+</test>
+<status status="FAIL" starttime="20181019 13:28:31.487" endtime="20181019 13:33:03.989"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1">Critical Tests</stat>
+<stat pass="1" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="1" id="s1" name="STC">STC</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
