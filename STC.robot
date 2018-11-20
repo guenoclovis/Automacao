@@ -15,7 +15,6 @@ ${index}  0
 #Incrementar
 #${index} = index + 1
 
-
 *** Test Cases ***
 #
 Entra Panel
