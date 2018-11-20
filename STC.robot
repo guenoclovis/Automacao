@@ -11,6 +11,7 @@ ${qtdLoco}  Get Length  ${loco}
 ${control}  0
 ${index}  0
 
+
 #*** Keywords ***
 #Incrementar
 #${index} = index + 1
